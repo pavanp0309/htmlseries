@@ -1,0 +1,144 @@
+HTML : it is used for building the skeleton or structure of the webpages or website
+  DEF: HYPERTEXT MARKUP LANGUAGE 
+  HYPERTEXT : the text which links two webpages
+      (webpage:its document which as collection of tags,audios videos images text etc)
+  MARKUP : Nothing but  tags 
+
+current version : HTML5  
+  FEATURES: 
+     1.its supports multimedia tags (audio,video ,images ,iframes(webpage in webpage))
+     2.semantic tags (which gives clear meaning both to developer and browser) 
+         eg: header ,footer ,aside ,article ,section table form etc 
+     3.Form-Enhancements : date-methods : date-time date-time-local ,month year , file  ,color, image etc..
+     4.entities :(special character or symbols)
+     5.webapis: localstorage ,sessionstorage,setTimeout setInterval dragandrop ,fetch 
+     6.its supports canvas 
+     7.svg(scalable vector graphics ) eg : icons barcaharts pie charts ,line circle ,rectangles 
+     8.its supports cross-platform applcation
+
+<!DOCTYPE html> : it tells /reperesents the current version html
+
+
+Comments : it increase the readbility and maintaince of the code
+
+<!-- write comment here -->
+
+TAG: it reperesents /tells what of type of content  (paragraph, headings  images etc )
+ELEMENT: the tag along with some content inside  
+         <h1>js dev </h1> ,<img /> : elements 
+        container Tags : 
+          h1-h6,p,a,
+        empty tags /void elements : the tag without any content inside it  
+           eg: img ,br,hr 
+
+ATTRIBUTES: which gives additional information to tag or elements  and its return only at starting of the tags
+     syntax: <h1 id="id1">js dev </h1>
+     eg: id ,class width height src ,href type rel style alt 
+
+
+TextFormatring tags (seo ) 
+b : bold
+strong : which looks simliar like bold but we use when we stress the words 
+i : italic
+em :which looks simliar like italic but we use when we stress the words 
+u : underline 
+mathematical /chemical equation 
+a2+b2=2ab  ====> sup  (power value)
+h20 ===> sub (base value) 
+mark 
+ins 
+del
+
+
+Links: 
+target="_blank" "_self" "_parent" "_top"
+<a href="" target="">text/image</a> 
+
+
+List tags  
+usage : Navbar  card menu instructions difference  footers ,ranking ,notesapp 
+
+TYpes of lists 
+ul : unordered list 
+ol: ordered list 
+dl : description list 
+
+TERMINOLOGY :
+li :list item 
+dd: description data 
+dt: description term 
+
+--> symbols for ul tag 
+style="list-style-type: circle;"
+style="list-style-type: square;"
+style="list-style-type: disc;"
+style="list-style-type: none;"
+
+Indicates the numbering type: (ol)
+type ATTRIBUTE values
+'a' indicates lowercase letters,
+'A' indicates uppercase letters,
+'i' indicates lowercase Roman numerals,
+'I' indicates uppercase Roman numerals,
+and '1' indicates numbers (default).
+
+to start the numbering system we use start attribute
+
+
+multimedia Tags 
+ audio  : mp3 alac wac flac m4a wma etc..
+ video  :mp4 3gp avi wmv mkv flv etc.
+ images : jpeg jpg png gif etc..
+ iframes (webpage inside a webpage)
+
+Form : used for collecting the information form the users |enduser |client 
+Usage: Ticket ,payment & banking system,searchbars ,login ,register ,eccomerce, applcation-education,exams , gaming ,todo 
+
+Name ,address,phoneno,email, gender ,txt  ,color  etc 
+
+
+Form_ELEMENTS : it is used for building /creating the structure of the form 
+lable input ,select ,Datalist ,button ,option ,optgrougph  , filedset ,legend 
+
+Form_Controls :It controlls form elements :txt ,email,required ,readonly ,maxlength,min,max
+
+
+Method: get  | post 
+all data will be attached in the form url  format (key & value pairs) 
+http://127.0.0.1:5500/Forms.html?fname=John&femail=pavankumarp0309%40gmail.com&fpass=aaaa
+not secure 
+Limition on url length(1025)
+
+
+
+Tables :
+useCases: difference  ,top 10 list (movies ,bitcoins,sales,users ),website ,timebales
+
+TERMINOLOGY 
+tr:Table Row       ---> rows
+td:Table data ---->cols
+th:Table Header ---->cols 
+
+Table attribute 
+ align: center |start |end ,
+ cellpadding : the space around the content inside the Cell 
+ cellspacing: the space areound the cell ouside the cell ( it works only when we have double borders)
+ border=''
+ bgColor ,
+ rowspan : for merging the Rows 
+ colsspan : for merging the cols 
+ style 
+
+Table Elements 
+ tr td th 
+ (thead tfoot tbody )-->semantic reperesentation  (gives the clear info to the Browser and dev)
+ colgrouph
+ col 
+
+
+Seo :search engine Optimization 
+  keywords ,descriptive names  (clear meaning)
+
+semantic : gives clear meaning  both to developer and browser
+  eg: h1-h6 p,form ,table list etc ...
+  Header footer ,section ,article , main ,aside figure caption  Nav 

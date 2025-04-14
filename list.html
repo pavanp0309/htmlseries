@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>List items</title>
+        <style>
+          
+            #id1>li::marker{
+               content:"👨‍🦰 ";
+            }
+        </style>
+    </head>
+    <body>
+        
+        <!-- unordered list  -->
+         <!-- default symbol : disc -->
+         <ul> <!-- unordered list  -->
+            <li>Ingredients</li> <!-- list item-->
+            <li>How to Make Chicken Biryani</li>
+            <li>Parboil the rice</li>
+            <li>Cook the chicken and layer the rice</li>
+            <li>Serving</li>
+         </ul>
+
+         <ul style="list-style-type: circle;"> <!-- unordered list  -->
+            <li>Ingredients</li> <!-- list item-->
+            <li>How to Make Chicken Biryani</li>
+            <li>Parboil the rice</li>
+            <li>Cook the chicken and layer the rice</li>
+            <li>Serving</li>
+         </ul>
+         <ul style="list-style-type: square;"> <!-- unordered list  -->
+            <li>Ingredients</li> <!-- list item-->
+            <li>How to Make Chicken Biryani</li>
+            <li>Parboil the rice</li>
+            <li>Cook the chicken and layer the rice</li>
+            <li>Serving</li>
+         </ul>
+
+         <ul style="list-style-type: none;"> <!-- unordered list  -->
+            <li>Ingredients</li> <!-- list item-->
+            <li>How to Make Chicken Biryani</li>
+            <li>Parboil the rice</li>
+            <li>Cook the chicken and layer the rice</li>
+            <li>Serving</li>
+         </ul>
+
+         <!-- nested list : list inside list -->
+         <ul style="list-style-type: none;"> <!-- unordered list  -->
+            <li>Ingredients</li> <!-- list item-->
+            <li>How to Make Chicken Biryani</li>
+            <li>Parboil the rice</li>
+            <li>
+                <!-- nested list -->
+                <ul>
+                    <li>item-1</li>
+                    <li>item-2</li>
+                    <li>item-3</li>
+                </ul>
+            </li>
+            <li>Serving</li>
+         </ul>
+
+
+         <!-- different symbols -->
+          <!-- not recommanded -->
+          <ul style="list-style-type: none;">
+            <li>🎯 items</li>
+          </ul>
+          <!-- recomanded -->
+          <ul id="id1">
+            <li>sample example</li>
+          </ul>
+    </body>
+</html>
